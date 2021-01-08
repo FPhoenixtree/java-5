@@ -44,15 +44,19 @@ class LinearEquation{
     }
     public double getB() { 
     	return b;
-    	}
+    }
     public double getC() { 
-    	return c;}
+    	return c;
+    }
     public double getD() { 
-    	return d;}
+    	return d;
+    }
     public double getE() { 
-    	return e;}
+    	return e;
+    }
     public double getF() { 
-    	return f;}
+    	return f;
+    }
     public boolean isSolvable(){
         if(a * d - b * c != 0) return true;
         else {
